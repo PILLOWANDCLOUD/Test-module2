@@ -1,0 +1,13 @@
+h1{
+	color: red;
+}
+div{
+	background-color: pink;
+	padding: 300px,200px,300px,200px;
+	margin: 200px,100px,100px,100px;
+}
+p{
+	background-color: black;
+	padding: 100px;
+
+}
