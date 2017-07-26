@@ -8,25 +8,25 @@ h1 { text-align: center;
   
 }
 
-p {
-  border: 5px solid pink;
+.p1 {
+  position:relative;
+  text-align: center;
+  border: 1px solid pink;
   background-color:grey;
-  width: 400px;
-  height: 150px;
+  width: 80px;
+  height: 30px;
   font-family: Helvetica;
   color: white;
-  float: left;
-  margin:10px;
+  margin:1px;
+  float: right;
 
 }
+.text{
 
-.p1{
-
+  padding: 10px;
+  border: 1px solid pink;
 }
 
-.p2{}
-
-.p3{}
 
 /* Simple Responsive Framework. */
 .row {
