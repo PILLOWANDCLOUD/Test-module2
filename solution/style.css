@@ -8,12 +8,12 @@ h1 { text-align: center;
   
 }
 
-.p1 {
+#p1 {
   position:relative;
   text-align: center;
   border: 1px solid pink;
-  background-color:violet;
-  width: 80px;
+  background-color: black;
+  width: 160px;
   height: 30px;
   font-family: Helvetica;
   color: white;
@@ -21,8 +21,38 @@ h1 { text-align: center;
   float: right;
 
 }
-.text{
 
+#p2 {
+  position:relative;
+  text-align: center;
+  border: 1px solid pink;
+  background-color: gold;
+  width: 160px;
+  height: 30px;
+  font-family: Helvetica;
+  color: white;
+  margin:1px;
+  float: right;
+
+}
+
+#p3 {
+  position:relative;
+  text-align: center;
+  border: 1px solid pink;
+  background-color: red;
+  width: 160px;
+  height: 30px;
+  font-family: Helvetica;
+  color: white;
+  margin:1px;
+  float: right;
+
+}
+
+
+.text{
+  position:relative;
   padding: 10px;
   border: 1px solid pink;
 }
