@@ -8,25 +8,39 @@ h1 { text-align: center;
   
 }
 
-p {
-  border: 5px solid pink;
-  background-color:grey;
-  width: 400px;
-  height: 150px;
+h2 {
+  display: inline-block;
+  position:relative;
+  text-align:center;
+  border: double pink 4px;
+  background-color:deeppink;
+  width: 150px;
+  height: 50px;
   font-family: Helvetica;
   color: white;
-  float: left;
-  margin:10px;
+  padding:6px;
+  margin-top: 10px;
+  float: right;
 
 }
 
-.p1{
+div {
+  display: inline-block;
+  position:relative;
+  border:none;
+  width: 400px;
+  margin: 5px;
+
 
 }
 
-.p2{}
+p{
+  border: double pink  4px;
+  padding: 50px 3px 3px 3px;
+  text-align:left;
+  margin: 10px auto 10px auto;
+}
 
-.p3{}
 
 /* Simple Responsive Framework. */
 .row {
