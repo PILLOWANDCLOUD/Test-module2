@@ -8,53 +8,37 @@ h1 { text-align: center;
   
 }
 
-#p1 {
+h2 {
+  display: inline-block;
   position:relative;
-  text-align: center;
-  border: 1px solid pink;
-  background-color: black;
-  width: 160px;
-  height: 30px;
+  text-align:center;
+  border: double pink 4px;
+  background-color:deeppink;
+  width: 150px;
+  height: 50px;
   font-family: Helvetica;
   color: white;
-  margin:1px;
+  padding:6px;
+  margin-top: 10px;
   float: right;
 
 }
 
-#p2 {
+div {
+  display: inline-block;
   position:relative;
-  text-align: center;
-  border: 1px solid pink;
-  background-color: gold;
-  width: 160px;
-  height: 30px;
-  font-family: Helvetica;
-  color: white;
-  margin:1px;
-  float: right;
+  border:none;
+  width: 400px;
+  margin: 5px;
+
 
 }
 
-#p3 {
-  position:relative;
-  text-align: center;
-  border: 1px solid pink;
-  background-color: red;
-  width: 160px;
-  height: 30px;
-  font-family: Helvetica;
-  color: white;
-  margin:1px;
-  float: right;
-
-}
-
-
-.text{
-  position:relative;
-  padding: 10px;
-  border: 1px solid pink;
+p{
+  border: double pink  4px;
+  padding: 50px 3px 3px 3px;
+  text-align:left;
+  margin: 10px auto 10px auto;
 }
 
 
