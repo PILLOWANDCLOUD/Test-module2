@@ -1,65 +1,97 @@
-/********** Base styles **********/
+
 * {
   box-sizing: border-box;
-  background-color: grey;
+  background-color:black;
+}
+div {
+     width: 100%;
 }
 h1 { text-align: center;
-  color:pink;
+     color:white;
   
 }
 
 a {
   display: inline-block;
   position:relative;
-  text-align:center;
-  border: double pink 4px;
-  background-color:deeppink;
+  text-align: center;
+  padding-top: 10px;
+  border: double gold 4px;
+  background-color:Seagreen;
   width: 150px;
   height: 50px;
   font-family: Helvetica;
   color: white;
-  padding:6px;
-  margin-top: 10px;
+  margin-left: 100%;
+  margin-bottom: 2%;
   float: right;
 
 }
-
-div {
-  display: inline-block;
-  position:relative;
-  border:none;
-  width: 400px;
-  margin: 5px;
-
-
+#Sushi{
+  background-color:Salmon;
+}
+#Beef{
+  background-color:DarkRed;
+}
+#Chicken{
+  background-color:DarkTurquoise;
 }
 
 p{
-  border: double pink  4px;
-  padding: 50px 3px 3px 3px;
+  margin: 2px;
+  width: 33%;
+  border: double gold 4px;
+  padding: 0px 0px 5px 15px;
   text-align:left;
-  margin: 10px auto 10px auto;
+  color: white ;
+  background-color:Olive;
+  float: right;
 }
 
+@media (min-width:992px){
 
-/* Simple Responsive Framework. */
-.row {
-  width:100%;
+  p {
+    width: 32%;
+     margin-right:0.9%;
+
+  }
 }
 
-/********** Large devices only **********/
-@media (min-width: 992px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, {float: left; border: 1px solid pink;}
-  .col-lg-1 { width: 33,3%;}
-  .col-lg-2 { width: 33,3%;}
-  .col-lg-3 { width: 33,3%;}
+@media (min-width:768px) and (max-width:991px){
+  
+  p {
+    margin-right: 0.6%;
+  }
+
+  #p1 {
+    width:49%;
+  }
+  #p2 {
+    width:49%;
+
+  }
+  #p3 {
+    width:98.8%;
+   
+  }
+}
+@media (max-width: 767px){
+
+    p {
+    margin-right: 0.1%;
+  }
+  #p1 {
+    width:100%;
+  }
+  #p2 {
+    width:100%;
+
+  }
+  #p3 {
+    width:100%;
+   
+  }
+
 }
 
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px){ 
-  .col-md-1, .col-md-2, .col-md-3,{ float: left; border: 1px solid pink;}
-  .col-md-1 { width: 50%;}
-  .col-md-2 { width: 50%;}
-  .col-md-3 { width: 100%;}
-}
 
